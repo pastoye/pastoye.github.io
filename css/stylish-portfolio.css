@@ -13,7 +13,7 @@ body {
 }
 
 body {
-    font-family: Neue Helvetica 35 Thin,sans-serif;
+    font-family: "Heebo",sans-serif;
 }
 
 .text-vertical-center {
@@ -25,26 +25,69 @@ body {
 .text-vertical-center h1 {
     margin: 0;
     padding: 0;
-    font-size: 6em;
-    font-weight: 300;
+    font-size: 5.5em;
+    font-weight: 100;
+    color: #B13A57;
 }
 
 .sub-text h3,h4 {
-    font-family: Neue Helvetica 35 Thin;
+    font-family: "Heebo",sans-serif;
+}
+
+.col-lg-12,
+.col-lg-10 {
+    color: #E2A2B2;
+}
+
+.csheader {
+    display: table;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    background: url(../img/Crunchspace_1_HotCars.png) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.csimage1 {
+    display: table;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: 40%;
+    background: url(../img/parent_and_child.jpeg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover; 
+    background-color: #000; 
+}
+
+.crunchspace1 {
+    padding: 50px 0;
+    background-color: #000;
+    color: #CCCCCC;
+}
+
+.contact {
+    background-color: #000;
 }
 
 /* Custom Button Styles */
 
 .btn-dark {
     border-radius: 0;
-    color: #740039;
+    color: #B13A57;
     background-color: rgba(0,0,0,0.7);
 }
 
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
-    color: #9d7373;
+    color: #B13A57;
     background-color: rgba(0,0,0,0.4);
 }
 
@@ -170,6 +213,7 @@ hr.small {
 
 .about {
     padding: 50px 0;
+    background-color: #000;
 }
 
 /* Services */
@@ -186,7 +230,7 @@ hr.small {
     width: 100%;
     height: 576px;
     color: #fff;
-    background: url(../img/Phoebe_Arduinos2.png) no-repeat left scroll;
+    background: url(../img/phoebe.png) no-repeat left scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -216,6 +260,7 @@ hr.small {
 
 .portfolio {
     padding: 50px 0;
+    background-color: #000;
 }
 
 .portfolio-item {
@@ -256,10 +301,10 @@ hr.small {
     pointer-events: none;
 }
 
-/* Footer */
-
-footer {
+/* Contact */
+.contact {
     padding: 100px 0;
+    background-color: #000;
 }
 
 #to-top {
